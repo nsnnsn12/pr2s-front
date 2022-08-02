@@ -1,82 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>SB Admin 2 - Login</title>
+    <!-- Custom styles for this template-->
+    <link href="../css/sb-admin-2.min.css" rel="stylesheet" />
   </head>
-  <body>
-    <body class="img js-fullheight" style="background-color: #fff">
-        <section class="ftco-section">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-6 text-center mb-5">
-                <h2 class="heading-section">Login #1011</h2>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-md-6 col-lg-4">
-                <div class="login-wrap p-0">
-                  <h3 class="mb-4 text-center">Have an account?</h3>
-                  <form action="#" class="signin-form">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Username"
-                        required
-                      />
+
+  <body class="bg-gradient-gray">
+    <div class="container">
+      <!-- Outer Row -->
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-12 col-md-9">
+          <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+              <!-- Nested Row within Card Body -->
+              <div class="row">
+                <!-- <div class="col-lg-6 d-none d-lg-block bg-login-image"></div> -->
+                <div class="col-lg-12">
+                  <div class="p-5">
+                    <div class="text-center">
+                      <h1 class="h4 text-gray-900 mb-4">게스트 로그인</h1>
                     </div>
-                    <div class="form-group">
-                      <input
-                        id="password-field"
-                        type="password"
-                        class="form-control"
-                        placeholder="Password"
-                        required
-                      />
-                      <span
-                        toggle="#password-field"
-                        class="fa fa-fw fa-eye field-icon toggle-password"
-                      ></span>
-                    </div>
-                    <div class="form-group">
-                      <button
-                        type="submit"
-                        class="form-control btn btn-primary submit px-3"
+                    <form class="user">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          class="form-control form-control-user"
+                          id="exampleInputEmail"
+                          aria-describedby="emailHelp"
+                          placeholder="Enter Email Address..."
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="password"
+                          class="form-control form-control-user"
+                          id="exampleInputPassword"
+                          placeholder="Password"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <div class="custom-control custom-checkbox small">
+                          <input
+                            type="checkbox"
+                            class="custom-control-input"
+                            id="customCheck"
+                          />
+                          <label class="custom-control-label" for="customCheck"
+                            >로그인 기억하기</label
+                          >
+                        </div>
+                      </div>
+                      <a
+                        href="index.html"
+                        class="btn btn-primary btn-user btn-block"
                       >
-                        Sign In
-                      </button>
+                        로그인
+                      </a>
+                      <hr />
+                      <a
+                        href="index.html"
+                        class="btn btn-success btn-user btn-block"
+                      >
+                        <i class="fab fa-google fa-fw"></i> 네이버로 로그인
+                      </a>
+                      <a
+                        href="index.html"
+                        class="btn btn-warning btn-user btn-block"
+                      >
+                        <i class="fab fa-facebook-f fa-fw"></i> 카카오로 로그인
+                      </a>
+                    </form>
+                    <hr />
+                    <div class="text-center">
+                      <a class="small" href="forgot-password.html"
+                        >비밀번호 찾기</a
+                      >
                     </div>
-                    <div class="form-group d-md-flex">
-                      <div class="w-50">
-                        <label class="checkbox-wrap checkbox-primary"
-                          >Remember Me
-                          <input type="checkbox" checked />
-                          <span class="checkmark"></span>
-                        </label>
-                      </div>
-                      <div class="w-50 text-md-right">
-                        <a href="#" style="color: #fff">Forgot Password</a>
-                      </div>
+                    <div class="text-center">
+                      <a class="small" href="register.html">회원가입</a>
                     </div>
-                  </form>
-                  <p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
-                  <div class="social d-flex text-center">
-                    <a href="#" class="px-2 py-2 mr-md-1 rounded"
-                      ><span class="ion-logo-facebook mr-2"></span> Facebook</a
-                    >
-                    <a href="#" class="px-2 py-2 ml-md-1 rounded"
-                      ><span class="ion-logo-twitter mr-2"></span> Twitter</a
-                    >
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-    <!-- Core theme JS-->
-    <script src="../js/bootstrap.bundle.min.js"></script>
-</body>
+        </div>
+      </div>
+    </div>
+    <!-- Custom scripts for all pages-->
+    <script src="../js/sb-admin-2.min.js"></script>
+  </body>
 </html>
